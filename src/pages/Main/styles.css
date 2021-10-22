@@ -1,0 +1,35 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  background: #242526;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  padding: 16px;
+
+  display: flex;
+  gap: 64px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container--title {
+  color: #f5f6f7;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

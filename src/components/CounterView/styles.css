@@ -1,0 +1,17 @@
+.counterview-container {
+  height: 120px;
+  width: 120px;
+
+  background: #ba8fff;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counterview-value {
+  font-size: 80px;
+  font-weight: 400;
+  color: #242526;
+}
