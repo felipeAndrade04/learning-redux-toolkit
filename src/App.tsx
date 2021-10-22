@@ -1,8 +1,14 @@
+import { Provider } from "react-redux";
+
+import { store } from "./store";
+
 import Main from "./pages/Main";
 
 function App() {
   return (
-    <Main />
+    <Provider store={store}>
+      <Main />
+    </Provider>
   );
 }
 
